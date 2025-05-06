@@ -1,3 +1,28 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@layer base {
+    html {
+      font-family: Inter, sans-serif;
+    }
+
+    :root {
+      --color-bg: #f7f7f7;
+      --color-text: #111111;
+      --color-accent: #43807A
+    }
+
+    .dark {
+      --color-bg: #1e1e1e;
+      --color-text: #f1f1f1;
+      --color-accent: #ff6b6b;
+    }
+
+    body {
+      background-color: var(--color-bg);
+      color: var(--color-text);
+    }
+}

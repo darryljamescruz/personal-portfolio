@@ -1,6 +1,6 @@
 <script lang="ts">
     const name = "Darryl James Cruz";
-    const tagline = "Computer Science Student • Aspiring Full Stack Dev";
+    const tagline = "Computer Science Student at Cal Poly • Aspiring Full Stack Dev";
 </script>
 
 <section class="flex flex-col items-center justify-center min-h-screen text-center bg-[var(--color-bg)] text-[var(--color-text)]">

@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       colors: {
         accent: '#43807A'
-      }
+      },
+      fontFamily: {
+        orbitron: ['Orbitron', 'sans-serif'],
+      },
     },
   },
   plugins: [
